@@ -1,0 +1,32 @@
+{
+  "selected_model": "efficientnetb0",
+  "selection_metric": "validation_macro_f1",
+  "class_names": [
+    "normal",
+    "adenocarcinoma",
+    "large_cell_carcinoma",
+    "squamous_cell_carcinoma"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "dataset": "Chest CT-Scan Images by Mohamed Hany (Kaggle)",
+  "dataset_url": "https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images",
+  "licence": "Open Data Commons Open Database License (ODbL) v1.0",
+  "licence_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "academic_use_notice": "Academic classification prototype only; not for clinical diagnosis or treatment.",
+  "tensorflow_version": "2.20.0",
+  "parameters": 4411943,
+  "model_size_mb": 35.1257381439209,
+  "median_inference_ms": 105.50524349997659,
+  "final_test_metrics": {
+    "accuracy": 0.7806691449814126,
+    "balanced_accuracy": 0.7988970588235295,
+    "macro_precision": 0.831645290886522,
+    "macro_recall": 0.7988970588235295,
+    "macro_f1": 0.8130645034423498,
+    "weighted_f1": 0.7788245886100896,
+    "macro_roc_auc_ovr": 0.9267746679469819
+  }
+}
